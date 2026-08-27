@@ -33,17 +33,20 @@
 # print("highest mark is ", high)
 
 
-# print("Find the lowest mark without using min().")
+# print("Find the lowest mark without using min() and calculate average")
 
-# total = 0
+ #total = 0
 # marks = [65, 82, 45, 91, 73]
-# low = marks[0]
+# high = low = marks[0]
 # for mark in marks:
 #     if mark <= low:
 #         low = mark
+#     if mark >= high:
+#         high = mark
 #     total += mark
 # avrg = total /len(marks)  
 # print("lowest mark is ",low)
+# print("highest mark is ", high)
 # print ("average is ",avrg)
 
 
